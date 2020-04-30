@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+require 'faker'
+
+
+
+10.times do |i|
+	Joinspecialtydoctor.create(doctor_id: rand(1..10),specialty_id: rand(1..4))
+end
+
+
+
+
+
